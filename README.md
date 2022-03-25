@@ -6,8 +6,11 @@ I wouldn't mind building a simple CLI application to do much the same functions 
 
 Simple right?
 
-Well, here is the challenge (for me, anyway) - I'm going ot use the [Rust langauge](https://www.rust-lang.org/). 
-Oh, I don't know how to program in Rust...yet.  Sounds fun right?  You are welcome to contribute.
+Well, here is the challenge (for me, anyway) - I'm want to code it using [Rust langauge](https://www.rust-lang.org/). 
+and btw, I don't know how to code in Rust...yet.  Sounds fun right?  You are welcome to join in the fun!
 
 ## First Thing's First
 My first task: build the app create one file!
+
+_UPDATE March 24, 2022 @ 9:45 PM_
+It works - it creates a single empty file!  😲
