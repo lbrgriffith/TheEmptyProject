@@ -3,17 +3,15 @@ use std::fs::File;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+    let iter_args = &args;
 
-    match args.get(1) {
-        Some(x) => {
-            println!("{:?}", x);
+            for item in iter_args {
+                println!("{:?}", item);
+     // Create file in write-only mode, returns `io::Result<File>`
+                match File::create(item) {
+                    Err(why) => panic!("couldn't create {}: {}", item, why),
+                    Ok(file) => file,
+                };
+            }
 
-            // Create file in write-only mode, returns `io::Result<File>`
-            match File::create(x) {
-                Err(why) => panic!("couldn't create {}: {}", x, why),
-                Ok(file) => file,
-            };
-        },
-        None => println!("Sorry, you must specify a filename.")
     }
-}
