@@ -14,3 +14,6 @@ My first task: build the app create one file!
 
 _UPDATE March 24, 2022 @ 9:45 PM_
 It works - it creates a single empty file!  😲
+
+_UPDATE April 2, 2022 @ 7:40 PM_
+Creates multiple empty files. Tested on M1 Mac with MacOS Monterey 12.3.1
