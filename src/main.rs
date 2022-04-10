@@ -1,5 +1,7 @@
 use std::env;
 use std::fs::File;
+use std::path::Path;
+use std::ffi::OsStr;
 
 struct Argumnents {
     barebones: bool,
@@ -11,6 +13,12 @@ fn main() {
     let iter_args = &args;
     let mut do_not_skip_it = false;
     let mut parameters =  Argumnents { barebones: false, files: Vec::new() };
+
+    fn get_extension_from(filename: &str) -> Option<&str> {    
+        Path::new(filename)        
+        .extension()        
+        .and_then(OsStr::to_str)
+    }
 
     for item in iter_args {
 
@@ -39,5 +47,8 @@ fn main() {
             Err(why) => panic!("couldn't create {}: {}", record, why),
             Ok(file) => file,
         };
+
+        println!("{:?}",get_extension_from(record).unwrap());
     }
 }
+
