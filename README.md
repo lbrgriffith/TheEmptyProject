@@ -17,3 +17,6 @@ It works - it creates a single empty file!  😲
 
 _UPDATE April 2, 2022 @ 7:40 PM_
 Creates multiple empty files. Tested on M1 Mac with MacOS Monterey 12.3.1
+
+_UPDATE April 2, 2022 @ 7:40 PM_
+Added function to get the file extension for a file.
