@@ -29,24 +29,24 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Compiling and Running
 ### Windows
-1. Install Rust for Windows by downloading and running the installer from the official Rust website.
-2. Open a command prompt and navigate to the directory where your main.rs file is located.
-3. Run the command cargo build --release to compile the program.
-4. Run the command ./target/release/main.exe to execute the compiled program.
+1. Install Rust for Windows by downloading and running the installer from the [official Rust website]([url](https://www.rust-lang.org/tools/install)).
+2. Open a command prompt and navigate to the directory where your `main.rs` file is located.
+3. Run the command `cargo build --release` to compile the program.
+4. Run the command `./target/release/main.exe` to execute the compiled program.
 
 ### Linux
 Install Rust for Linux by running the following command in your terminal: 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh.
 ```
-1. Open a terminal and navigate to the directory where your main.rs file is located.
-2. Run the command cargo build --release to compile the program.
-3. Run the command ./target/release/main to execute the compiled program.
+1. Open a terminal and navigate to the directory where your `main.rs` file is located.
+2. Run the command `cargo build --release` to compile the program.
+3. Run the command `./target/release/main` to execute the compiled program.
 
 ### MacOS
 1. Install Rust for macOS by downloading and running the installer from the official Rust website.
-2. Open a terminal and navigate to the directory where your main.rs file is located.
-3. Run the command cargo build --release to compile the program.
-4. Run the command ./target/release/main to execute the compiled program.
+2. Open a terminal and navigate to the directory where your `main.rs` file is located.
+3. Run the command `cargo build --release` to compile the program.
+4. Run the command `./target/release/main` to execute the compiled program.
 
 _Note that the compiled binary will be located in the target/release directory after you run `cargo build --release`._
