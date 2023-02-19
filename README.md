@@ -9,14 +9,22 @@ Simple right?
 Well, here is the challenge (for me, anyway) - I'm want to code it using [Rust langauge](https://www.rust-lang.org/). 
 and btw, I don't know how to code in Rust...yet.  Sounds fun right?  You are welcome to join in the fun!
 
-## First Thing's First
-My first task: build the app create one file!
+# My Rust File Creator
 
-_UPDATE March 24, 2022 @ 9:45 PM_
-It works - it creates a single empty file!  😲
+This is a Rust command-line application that allows the user to create one or more empty files. The application takes in command line arguments and creates a file for each argument. If the `-b` flag is specified, the application will create "bare-bones" files that are empty except for a minimal header.
 
-_UPDATE April 2, 2022 @ 7:40 PM_
-Creates multiple empty files. Tested on M1 Mac with MacOS Monterey 12.3.1
+## Usage
 
-_UPDATE April 10, 2022 @ 3:40 PM_
-Added function to get the file extension for a file.
+To use the application, simply run it with one or more arguments:
+
+```
+./main.exe file1.txt file2.txt
+
+```
+
+This will create two empty files named `file1.txt` and `file2.txt` in the current directory.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/lbrgriffith/TheEmptyProject/blob/main/LICENSE) file for details.
+
