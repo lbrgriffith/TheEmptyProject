@@ -16,8 +16,9 @@ fn main() {
 
     fn get_extension_from(filename: &str) -> Option<&str> {    
         Path::new(filename)        
-        .extension()        
-        .and_then(OsStr::to_str)
+            .extension()        
+            .and_then(OsStr::to_str)
+            .or(Some(""))
     }
 
     for item in iter_args {
@@ -51,4 +52,3 @@ fn main() {
         println!("{:?}",get_extension_from(record).unwrap());
     }
 }
-
