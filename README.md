@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
 
-A modern, secure implementation of the Linux `touch` command written in Rust. Creates empty files and manages file timestamps with comprehensive security protections.
+A modern, secure implementation of the Linux `touch` command written in Rust. Creates empty files and manages file timestamps with modern security protections.
 
 ## Features
 
